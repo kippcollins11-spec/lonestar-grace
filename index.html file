@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoneStar Grace Concierge Services</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f5ee;
+      color: #071d45;
+    }
+
+    .hero {
+      background: linear-gradient(145deg, #061b3f, #0b3265);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+      border-bottom: 6px solid #c99528;
+    }
+
+    .star {
+      font-size: 65px;
+      color: #d6a53a;
+      margin-bottom: 5px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: 46px;
+      letter-spacing: 1px;
+    }
+
+    .grace {
+      color: #d6a53a;
+      font-style: italic;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 20px;
+      letter-spacing: 4px;
+    }
+
+    .tagline {
+      margin-top: 22px;
+      font-size: 20px;
+      font-style: italic;
+      color: #f6e8c1;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 35px 20px 55px;
+    }
+
+    h2 {
+      text-align: center;
+      font-family: Georgia, serif;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .service {
+      background: white;
+      border: 2px solid #d2ab54;
+      border-radius: 14px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 3px 12px rgba(0,0,0,.08);
+    }
+
+    .price {
+      margin-top: 35px;
+      background: #071d45;
+      color: white;
+      border-radius: 16px;
+      text-align: center;
+      padding: 28px 20px;
+    }
+
+    .price strong {
+      display: block;
+      color: #e0b450;
+      font-size: 42px;
+    }
+
+    .price p {
+      margin: 8px 0 0;
+      font-size: 18px;
+    }
+
+    .description {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 32px auto;
+      max-width: 700px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin: 25px auto 15px;
+      padding: 20px;
+      background: #c99528;
+      color: #071d45;
+      text-align: center;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      border-radius: 12px;
+    }
+
+    .button:hover {
+      background: #dfb54c;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 35px;
+      padding-top: 25px;
+      border-top: 1px solid #d2ab54;
+      font-size: 18px;
+      line-height: 1.9;
+    }
+
+    .contact a {
+      color: #071d45;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      background: #071d45;
+      color: white;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 15px;
+      }
+
+      .services {
+        grid-template-columns: 1fr;
+      }
+
+      .service {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="star">★</div>
+
+    <h1>
+      LoneStar <span class="grace">Grace</span>
+    </h1>
+
+    <div class="subtitle">
+      CONCIERGE SERVICES
+    </div>
+
+    <div class="tagline">
+      More Time for What Matters Most
+    </div>
+  </section>
+
+
+  <main class="container">
+
+    <h2>Services Include</h2>
+
+    <div class="services">
+
+      <div class="service">🍽️ Meal Prepping</div>
+
+      <div class="service">🏠 Household Chores</div>
+
+      <div class="service">🚗 Transportation</div>
+
+      <div class="service">📦 Home Organization</div>
+
+      <div class="service">📦 Packing / Moving</div>
+
+      <div class="service">🐾 Pet Care</div>
+
+      <div class="service">❤️ Companionship</div>
+
+    </div>
+
+
+    <div class="price">
+
+      <strong>$25.00 / hour</strong>
+
+      <p>Minimum of 1 hour</p>
+
+      <p>Long-term needs can be discussed.</p>
+
+    </div>
+
+
+    <div class="description">
+
+      Discreet help with daily, weekly, or monthly needs for non-medical concierge services.
+
+    </div>
+
+
+    <a
+      class="button"
+      href="https://docs.google.com/forms/d/101tekvPqKZBa6T9DBBa3NRHshC1c2cZtSuT1j2yJ5uk/viewform"
+      target="_blank"
+    >
+      Request Services
+    </a>
+
+
+    <div class="contact">
+
+      <div>
+        Phone:
+        <a href="tel:9033907561">
+          (903) 390-7561
+        </a>
+      </div>
+
+      <div>
+        Email:
+        <a href="mailto:lonestargrace1@gmail.com">
+          lonestargrace1@gmail.com
+        </a>
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+
+    LoneStar Grace Concierge Services
+
+  </footer>
+
+</body>
+</html>
